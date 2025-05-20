@@ -4,7 +4,7 @@
 
 ## Project Structure
 
-## 🚀 Features
+## Features
 
 - Tracks wrist, elbow, and forearm movements using a wearable sensor
 - Calculates range of motion (ROM) and classifies movement severity
@@ -12,7 +12,7 @@
 - Visual interface designed for non-technical clinicians
 - Exports results to PDF and CSV for recordkeeping and analysis
 
-## 📂 Folders
+## Folders
 
 - **Arduino/**  
   Contains the complete Arduino sketch that reads data from the MPU6050 and sends it over serial/Bluetooth.
@@ -23,7 +23,7 @@
 - **images/**  
   Contains UI visuals used within the Python app for movement instructions and branding.
 
-## 🧰 Requirements
+##  Requirements
 
 - Python 3.8+ with the following libraries:
   - `tkinter`
@@ -32,7 +32,7 @@
   - `customtkinter`
   - `fpdf`
 
-## 👩‍⚕️ Usage
+##  Usage
 
 1. Upload the Arduino sketch from the `Arduino/` folder to your device.
 2. Run the Python GUI from the `PythonApp/` folder.
